@@ -2,8 +2,67 @@
     padding: 0;
     margin: 0;
 }
-.main{
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 100vh;
-    width: 100%;
-    background-color: #2948c3;
+    margin: 0;
+    background-color: #3c58c7;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 60px;
+    padding: 20px;
+    background-color: #000;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    
+    
+}
+.btn1{
+   margin: 30px;
+   height: 40px;
+   width: 200px;
+   border-radius: 8px;
+  
+
+
+}
+.btn2{
+    margin: 30px;
+    height: 40px;
+    width: 120px;
+    border-radius: 8px;
+
+}
+
+
+i{
+    padding-left: 35px;
+}
+
+
+.three{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+
+.second{
+    height: 70px;
+    width:85px;
+    background-color: black;
+    margin-top: 100px;
+    
+
 }
