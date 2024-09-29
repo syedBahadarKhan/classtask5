@@ -61,7 +61,7 @@ i{
     height: 70px;
     width: 85px;
     background-color: black;
-    margin-top: 100px;
+    margin-top: 80px;
     color: white;
     font-size: 30px;
     text-align: center;
@@ -69,4 +69,6 @@ i{
 }
 span{
     color: lightslategray;
+    
+
 }
