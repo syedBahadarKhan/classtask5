@@ -15,16 +15,16 @@
 
         <!--inner first div-->
         <div class="first">
-            <button class="btn1">07-07-1996<i class="fa-regular fa-calendar-days"></i></button>
-            <button class="btn2">calculate</button>
+            <input type="date" id="birthDate"><i class="fa-regular fa-calendar-days"></i>
+            <button class="btn2" onclick="calculateAge()">calculate</button>
 
         </div>
 
         <!--the last three divs-->
-        <div class="three">
-        <div class="second">24 <span>days</span></div>
-        <div class="second">8 <span>month</span></div>
-        <div class="second">12 <span>years</span></div>
+        <div id="result">
+        <div id="months">24 <br> <span style="color: lightslategray;">days</span></div>
+        <div id="years">8 <br><span>month</span></div>
+        <div id="days">12 <br> <span>years</span></div>
 
 
     </div>

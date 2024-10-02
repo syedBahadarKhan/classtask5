@@ -48,7 +48,7 @@ i{
 }
 
 
-.three{
+#result{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -57,7 +57,7 @@ i{
 }
 
 
-.second{
+#months{
     height: 70px;
     width: 85px;
     background-color: black;
@@ -67,8 +67,29 @@ i{
     text-align: center;
 
 }
+#years{
+    height: 70px;
+    width: 85px;
+    background-color: black;
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+
+}
+#days{
+    height: 70px;
+    width: 85px;
+    background-color: black;
+    margin-top: 80px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    
+}
 span{
     color: lightslategray;
+    font-size:15px;
     
 
 }
